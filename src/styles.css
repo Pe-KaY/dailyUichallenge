@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  line-height: calc(1em + 0.5rem);
+}
+
+img{
+  max-width: 100%;
+  display: block;
+  user-select: none;
+}
+
+
+
+@media (max-width: 540px) {
+   .container{
+    flex-direction: column;
+   }
+}
